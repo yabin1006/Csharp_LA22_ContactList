@@ -178,7 +178,7 @@ namespace LA22_ContactList_Robin
 
         public void LoadContactFile()
         {
-            string[] lines = File.ReadAllLines(@"../../../LA22_ContactList_Robin/contact_list.txt");
+            string[] lines = File.ReadAllLines(@"../../contact_list.txt");
             string fname, phonetype; ulong phonenum;
             for(int i = 0; i < lines.Length; i++)
             {
